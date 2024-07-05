@@ -5,16 +5,17 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "**Hava Havai Backend Assignment**\r This project is a backend service that provides detailed information about airports based on their IATA code. The service uses SQLite as the database and Sequelize as the ORM (Object Relational Mapping) tool to interact with the database using JavaScript. The project is deployed on Render and can be accessed at the following URL:https://hava-havai-backend-assignment-36vs.onrender.com",
   "dependencies": {
     "express": "^4.19.2",
     "google-spreadsheet": "^4.1.2",
     "nodemon": "^3.1.4",
     "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "devDependencies": {}
 }
