@@ -3,19 +3,22 @@ This project is a backend service that provides detailed information about airpo
 
 
 #Features
-*Retrieve airport details including related city and country information using a single query.
-*Seamlessly handle cases where the country data might not be available.
-*Provide a structured JSON response.
-Technologies Used
-*Node.js: JavaScript runtime environment.
-*Express: Web framework for Node.js.
-*SQLite: Lightweight, disk-based database.
-*Sequelize: Promise-based ORM for Node.js.
-*Render: Cloud platform for deploying the application.
+
+-Retrieve airport details including related city and country information using a single query.
+-Seamlessly handle cases where the country data might not be available.
+-Provide a structured JSON response.
+
+#Technologies Used
+-Node.js: JavaScript runtime environment.
+-Express: Web framework for Node.js.
+-SQLite: Lightweight, disk-based database.
+-Sequelize: Promise-based ORM for Node.js.
+-Render: Cloud platform for deploying the application.
 
 ***API Endpoint***
 -Get Airport Details
 *** URL: /airport/:iata_code ***
+********* https://hava-havai-backend-assignment-36vs.onrender.com/airport/:iata_code  *********
 -Method: GET
 -URL Parameters:
 *iata_code (string): The IATA code of the airport.
