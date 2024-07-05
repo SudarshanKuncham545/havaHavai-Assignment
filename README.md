@@ -1,6 +1,8 @@
 **Hava Havai Backend Assignment**
 This project is a backend service that provides detailed information about airports based on their IATA code. The service uses SQLite as the database and Sequelize as the ORM (Object Relational Mapping) tool to interact with the database using JavaScript. The project is deployed on Render and can be accessed at the following URL:https://hava-havai-backend-assignment-36vs.onrender.com
-***Features***
+
+
+#Features
 *Retrieve airport details including related city and country information using a single query.
 *Seamlessly handle cases where the country data might not be available.
 *Provide a structured JSON response.
